@@ -1,13 +1,13 @@
 <html>
-  <title> Meters fo Feet </title>
+  <title> 朝顔の成長予測App </title>
   <form method="POST">
-    <label> Meters </label>
+    <label> 何日目の 朝顔 の長さが気になる？ </label>
     <input type="text" name="textbox" value = {{user_text | safe}}>  <br>
 
-    <label> Feet: </label>
-    <label> {{output | safe}} </label> <br>
+    <label> 予測値: </label>
+    <label> {{output | safe}} cm</label> <br>
 
-    <button type="submit" name="submit">Convert</button>
+    <button type="submit" name="submit">予測</button>
   </form>
 
 </html>
